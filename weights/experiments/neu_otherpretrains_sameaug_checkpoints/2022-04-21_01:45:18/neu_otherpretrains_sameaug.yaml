@@ -1,0 +1,27 @@
+project_name: 'neu_otherpretrains_sameaug'
+num_epochs:
+    target_model: 150
+    relation_net: 1
+lr : 0.0003
+resume:
+    target_model: ''
+    relation_net: './weights/experiments/neu_otherpretrains_checkpoints/2022-04-21_01:11:56/relation_net.pth'
+dataset: 'neu'
+num_classes: 6
+batch_size:
+    train: 8
+    test: 256
+encode_size: 192
+hidden_size: 768
+num_layers: 12
+# num_heads: 6
+data_percent: 0.05
+model_pool:
+    imagenet_pretrains: False
+    cifar10_pretrains: False
+    other_pretrains: True
+target_ratio: 0.5
+
+# distillation_type: 'hard'
+# alpha: 0.2
+# tau : 3.0

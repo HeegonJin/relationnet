@@ -1,0 +1,19 @@
+num_epochs: 1
+lr : 0.0003
+resume:
+    target_model: './weights/pretrained/target_ckpt.pth'
+    relation_net: 'None'
+dataset: 'cifar10'
+num_classes: 10
+batch_size: 256
+encode_size: 192
+hidden_size: 768
+num_layers: 12
+num_heads: 6
+data_percent: 0.05
+model_pool:
+    imagenet_pretrains: True
+    cifar10_pretrains: False
+    other_pretrains: False
+alpha: 0.5
+model_name: 'cifar10'

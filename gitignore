@@ -1,0 +1,15 @@
+*.pth
+*.ipynb
+*.png
+
+checkpoint/
+checkpoint_old/
+data/
+models/other_models/
+cifar10_models/
+other_datasets/
+weights/
+cf_matrix.py
+flower_data.zip
+losses.py
+main_transform.py

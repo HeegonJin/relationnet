@@ -1,0 +1,12 @@
+*.pth
+*.jpg
+*.tif
+*.zip
+*.txt
+*.tgz
+*.ipynb
+*.pyc
+*.pt
+*.png
+__pycache__/
+data/

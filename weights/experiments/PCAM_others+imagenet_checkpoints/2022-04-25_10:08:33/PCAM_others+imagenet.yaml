@@ -1,0 +1,27 @@
+project_name: 'PCAM_others+imagenet'
+num_epochs:
+    target_model: 150
+    relation_net: 150
+lr : 0.0003
+resume:
+    target_model: ''
+    relation_net: ''
+dataset: 'pcam'
+num_classes: 2
+batch_size:
+    train: 128
+    test: 128
+encode_size: 192
+hidden_size: 768
+num_layers: 3
+# num_heads: 6
+data_percent: 0.01
+model_pool:
+    imagenet_pretrains: True
+    cifar10_pretrains: False
+    other_pretrains: True
+target_ratio: 0.5
+
+# distillation_type: 'hard'
+# alpha: 0.2
+# tau : 3.0

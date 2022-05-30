@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=http://ai.stanford.edu/~jkrause/cars/car_dataset.html
+HostUrl=http://ai.stanford.edu/~jkrause/cars/car_devkit.tgz
